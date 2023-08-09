@@ -531,7 +531,7 @@ Entretanto, lembre-se que `k in my_dict` faz o mesmo trabalho, e é mais rápido
 
 Eu tinha uma razão específica para usar `self.keys()` no método `+__contains__+` do
 <<ex_strkeydict0>>.
-A verificação da chave não-modificada—++key in self.keys()++—é necessária por correção, pois `StrKeyDict0` não obriga todas as chaves no dicionário a serem do tipo `str`.
+A verificação da chave não-modificada `++key in self.keys()++` é necessária por correção, pois `StrKeyDict0` não obriga todas as chaves no dicionário a serem do tipo `str`.
 Nosso único objetivo com esse exemplo simples foi fazer a busca "mais amigável", e não forçar tipos.
 
 [WARNING]
@@ -1052,7 +1052,7 @@ Agora vamos revisar a vasta seleção de operações oferecidas pelos conjuntos.
 ==== Operações de conjuntos
 
 A <<set_uml>> dá((("dictionaries and sets", "set operations", id="DASset03-ops")))((("sets", "set operations", id="Soper03")))((("UML class diagrams", "simplified for MutableSet and superclasses")))
-uma visão geral dos métodos que disponíveis em conjuntos mutáveis e imutáveis. Muitos deles são métodos especiais que sobrecarregam operadores, tais como `&` and `>=`. A <<set_operators_tbl>> mostra os operadores matemáticos de conjuntos que tem operadores ou métodos correspondentes no Python. Note que alguns operadores e métodos realizam mudanças no mesmo lugar sobre o conjunto alvo (por exemplo, `&=`, `difference_update`, etc.). Tais operações não fazem sentido no mundo ideal dos conjuntos matemáticos, e também não são implementadas em `frozenset`.
+uma visão geral dos métodos disponíveis em conjuntos mutáveis e imutáveis. Muitos deles são métodos especiais que sobrecarregam operadores, tais como `&` and `>=`. A <<set_operators_tbl>> mostra os operadores matemáticos de conjuntos que tem operadores ou métodos correspondentes no Python. Note que alguns operadores e métodos realizam mudanças no mesmo lugar sobre o conjunto alvo (por exemplo, `&=`, `difference_update`, etc.). Tais operações não fazem sentido no mundo ideal dos conjuntos matemáticos, e também não são implementadas em `frozenset`.
 
 [role="man-height4"]
 [TIP]
