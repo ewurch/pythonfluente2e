@@ -852,7 +852,7 @@ A primeira resposta veio de Fernando Perez, criador do IPython, e realça como o
 60
 ----
 
-Acho a solução de Perez boa, mas Guy Middleton elegiou essa próxima solução, de Paul Rubin e Skip Montanaro:
+Acho a solução de Perez boa, mas Guy Middleton elogiou essa próxima solução, de Paul Rubin e Skip Montanaro:
 
 [source, pycon]
 ----
